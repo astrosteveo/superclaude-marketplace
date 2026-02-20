@@ -1,0 +1,17 @@
+{
+  "name": "auto-dev-marketplace",
+  "owner": {
+    "name": "astrosteveo"
+  },
+  "metadata": {
+    "description": "Autonomous development loop using Claude Code agent teams"
+  },
+  "plugins": [
+    {
+      "name": "auto-dev",
+      "source": "./plugins/auto-dev",
+      "description": "Autonomous development loop — brainstorm-only mode, feature-scoped and project-scoped iteration, configurable autonomy. Spawns fresh agents per iteration to avoid context poisoning.",
+      "version": "3.1.0"
+    }
+  ]
+}
