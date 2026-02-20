@@ -1,6 +1,6 @@
 ---
 description: Autonomous development loop — spawns agent teams to brainstorm ideas, implement features, and iterate. Supports brainstorm-only mode, feature-scoped and project-scoped iteration with configurable autonomy.
-argument-hint: [brainstorm] [<feature>] [<iterations>]
+argument-hint: [brainstorm] [feature] [iterations]
 disable-model-invocation: true
 ---
 
