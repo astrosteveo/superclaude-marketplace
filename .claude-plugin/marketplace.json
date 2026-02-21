@@ -1,23 +1,33 @@
 {
   "name": "superclaude-marketplace",
   "owner": {
-    "name": "astrosteveo"
+    "name": "Steven Mosley",
+    "email": "stevengmjr@gmail.com"
   },
   "metadata": {
-    "description": "Composable, interoperable plugins for Claude. This marketplace hosts a variety of plugins that can be easily integrated into your Claude experience, enhancing its capabilities and allowing for seamless interaction with external tools and services."
+    "description": "Composable, interoperable plugins for Claude. This marketplace hosts a variety of plugins that can be easily integrated into your Claude experience, enhancing its capabilities and allowing for seamless interaction with external tools and services.",
+    "version": "0.0.1"
   },
   "plugins": [
     {
       "name": "auto-dev",
-      "source": "./plugins/auto-dev",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/astrosteveo/auto-dev.git"
+      },
       "description": "Autonomous development loop — brainstorm-only mode, feature-scoped and project-scoped iteration, configurable autonomy. Spawns fresh agents per iteration to avoid context poisoning.",
-      "version": "3.1.0"
+      "version": "1.0.0",
+      "strict": true
     },
     {
       "name": "superclaude",
-      "source": "./plugins/superclaude",
-      "description": "A plugin that enhances Claude's capabilities by providing additional tools and functionalities. It allows for seamless integration with external services and APIs, enabling Claude to perform a wider range of tasks and interact with various platforms.",
-      "version": "0.0.1"
+      "source": {
+        "source": "url",
+        "url": "https://github.com/astrosteveo/superclaude.git"
+      },
+      "description": "Unlocks the full potential of Claude with a suite of powerful tools and integrations. Superclaude enhances your experience by providing seamless access to external services, advanced data processing capabilities, and customizable workflows. Whether you're looking to automate tasks, integrate with APIs, or extend Claude's functionality, Superclaude has you covered.",
+      "version": "0.0.1",
+      "strict": true
     }
   ]
 }

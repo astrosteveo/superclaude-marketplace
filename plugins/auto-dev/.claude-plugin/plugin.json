@@ -1,9 +1,0 @@
-{
-  "name": "auto-dev",
-  "version": "3.1.0",
-  "description": "Autonomous development loop using agent teams. Supports brainstorm-only mode, feature-scoped and project-scoped iteration, and configurable autonomy. Spawns fresh agents per iteration to avoid context poisoning.",
-  "author": {
-    "name": "astrosteveo"
-  },
-  "license": "MIT"
-}

@@ -1,9 +1,0 @@
-{
-  "name": "superclaude",
-  "version": "0.0.1",
-  "description": "A plugin that enhances Claude's capabilities by providing additional tools and functionalities. It allows for seamless integration with external services and APIs, enabling Claude to perform a wider range of tasks and interact with various platforms.",
-  "author": {
-    "name": "astrosteveo"
-  },
-  "license": "MIT"
-}
