@@ -15,7 +15,7 @@
         "source": "url",
         "url": "https://github.com/astrosteveo/auto-dev.git"
       },
-      "description": "Autonomous development loop — brainstorm-only mode, feature-scoped and project-scoped iteration, configurable autonomy. Spawns fresh agents per iteration to avoid context poisoning.",
+      "description": "[STABLE] Autonomous development loop — brainstorm-only mode, feature-scoped and project-scoped iteration, configurable autonomy. Spawns fresh agents per iteration to avoid context poisoning.",
       "version": "1.0.0",
       "strict": true
     },
@@ -25,7 +25,7 @@
         "source": "url",
         "url": "https://github.com/astrosteveo/superclaude.git"
       },
-      "description": "Unlocks the full potential of Claude with a suite of powerful tools and integrations. Superclaude enhances your experience by providing seamless access to external services, advanced data processing capabilities, and customizable workflows. Whether you're looking to automate tasks, integrate with APIs, or extend Claude's functionality, Superclaude has you covered.",
+      "description": "[DEV] Unlocks the full potential of Claude with a suite of powerful tools and integrations. Superclaude enhances your experience by providing seamless access to external services, advanced data processing capabilities, and customizable workflows. Whether you're looking to automate tasks, integrate with APIs, or extend Claude's functionality, Superclaude has you covered.",
       "version": "0.0.1",
       "strict": true
     }
