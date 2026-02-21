@@ -1,10 +1,10 @@
 {
-  "name": "auto-dev-marketplace",
+  "name": "superclaude-marketplace",
   "owner": {
     "name": "astrosteveo"
   },
   "metadata": {
-    "description": "Autonomous development loop using Claude Code agent teams"
+    "description": "Composable, interoperable plugins for Claude. This marketplace hosts a variety of plugins that can be easily integrated into your Claude experience, enhancing its capabilities and allowing for seamless interaction with external tools and services."
   },
   "plugins": [
     {
@@ -12,6 +12,12 @@
       "source": "./plugins/auto-dev",
       "description": "Autonomous development loop — brainstorm-only mode, feature-scoped and project-scoped iteration, configurable autonomy. Spawns fresh agents per iteration to avoid context poisoning.",
       "version": "3.1.0"
+    },
+    {
+      "name": "superclaude",
+      "source": "./plugins/superclaude",
+      "description": "A plugin that enhances Claude's capabilities by providing additional tools and functionalities. It allows for seamless integration with external services and APIs, enabling Claude to perform a wider range of tasks and interact with various platforms.",
+      "version": "0.0.1"
     }
   ]
 }
